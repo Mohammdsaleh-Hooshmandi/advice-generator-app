@@ -45,6 +45,7 @@ body {
     letter-spacing: 4px;
     color: var(--Neon-Green);
     margin-bottom: 1rem;
+    font-weight: 800;
 }
 
 .advice-text {
@@ -96,6 +97,10 @@ body {
 @media(min-width: 500px) {
     .container {
         max-width: 50rem;
+    }
+
+    .advice-text {
+        padding: 0 5rem;
     }
 
     .pattern-divider-mobile {
